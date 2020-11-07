@@ -1,0 +1,45 @@
+.trendingPage {
+  flex: 0.8;
+  flex-direction: column;
+  padding: 0px 100px;
+}
+
+.trending__outside {
+  display: block;
+  border-bottom: 1px solid lightgray;
+}
+
+.trending__inside {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trending__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image__icon {
+  width: 80px;
+  height: 80px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: none;
+  border-radius: 40px;
+}
+
+#title.image__icon {
+  margin-top: 8px;
+  display: block;
+  max-height: 5rem;
+  font-weight: 100;
+  line-height: 1.6rem;
+}
